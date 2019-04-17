@@ -1,0 +1,13 @@
+<scroll-view hidden="{{items.length==0}}" class='userInfoView' scroll-y="true">
+      <view class="touch-item {{item.isTouchMove ? 'touch-move-active' : ''}}" data-index="{{index}}" bindtouchstart="touchstart" bindtouchmove="touchmove" wx:for="{{items}}" wx:key="index">
+        <view class="content">
+          <view class="userinfonName">{{item.name}}<span class="userinfoType">{{item.userType}}</span></view>
+          <!-- <view class='userinfoType'>{{item.userType}}</view> -->
+          <view class='userinfoCord'>身份证</view>
+          <view class='userinfoncordNer'>{{item.userCord}}</view>
+          <view class='userinfoPhone'>手机号</view>
+          <view class='userinfoPhoneNer'>{{item.phone}}</view>
+        </view>
+        <view class="del" catchtap="del" data-index="{{index}}">删除</view>
+      </view>
+    </scroll-view>

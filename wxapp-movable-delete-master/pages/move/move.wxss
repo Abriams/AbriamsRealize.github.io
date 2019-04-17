@@ -1,0 +1,109 @@
+.userInfoView{
+  width: 100%;
+  height: 592rpx;
+  margin-top: 40rpx;
+  padding-bottom: 20rpx;
+}
+.userInfoLi{
+  width: 100%;
+  height: 176rpx;
+  background-color: #F8F9FC;
+  margin-bottom: 20rpx;
+  border-radius: 8rpx;
+}
+.userinfonName{
+  position: absolute;
+  left: 108rpx;
+  top: 24rpx;
+  font-size: 28rpx;
+  color: #333333;
+}
+.userinfoType{
+  margin-left: 20rpx;
+  color: #999999;
+  font-size: 24rpx;
+}
+.userinfoCord{
+  position: absolute;
+  left: 108rpx;
+  top: 74rpx;
+  font-size: 24rpx;
+  color: #999999;
+}
+.userinfoncordNer{
+  position: absolute;
+  left: 212rpx;
+  top: 74rpx;
+  font-size: 24rpx;
+  color: #999999;
+}
+.userinfoPhone{
+  position: absolute;
+  left: 108rpx;
+  top: 118rpx;
+  font-size: 24rpx;
+  color: #999999;
+}
+.userinfoPhoneNer{
+  position: absolute;
+  left: 212rpx;
+  top: 118rpx;
+  font-size: 24rpx;
+  color: #999999;
+}
+.userinfonAdit{
+  position: absolute;
+  left: 602rpx;
+  top: 74rpx;
+  width: 28rpx;
+  height: 27rpx;
+}
+.touch-item {
+  height: 176rpx;
+  background-color: #F8F9FC;
+  margin-bottom: 20rpx;
+  border-radius: 8rpx;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  overflow: hidden
+}
+
+.content {
+  width: 100%;
+  margin-right:0;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  -webkit-transform: translateX(90px);
+  transform: translateX(90px);
+  margin-left: -90px;
+  position: relative;
+}
+.userCheckIcon{
+  position: absolute;
+  left: 40rpx;
+  top: 74rpx;
+  width: 28rpx;
+  height: 28rpx;
+}
+.del {
+  background-color: #F56141;
+  width: 90rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  -webkit-transform: translateX(90px);
+  transform: translateX(90px);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  font-size: 28rpx;
+}
+
+.touch-move-active .content,
+.touch-move-active .del {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
