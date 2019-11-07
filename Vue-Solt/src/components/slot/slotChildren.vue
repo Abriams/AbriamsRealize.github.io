@@ -10,7 +10,7 @@
         name: '',
         data() {
             return {
-                msg: "slot分发内容",
+                msg: "slot分发内容哈",
             }
         },
     }
